@@ -7,8 +7,11 @@ An intelligent ATS that automatically parses resumes, extracts skills, ranks can
 - Backend + Frontend setup complete
 - Backend: Express server running on localhost:5005
 - Dependencies installed: express, cors, dotenv, mongoose
-- MongoDB connection setup in progress
-- Actively building core features (daily commits)
+- MongoDB connection successfully established
+- User model created with validation (name, email, password, role)
+- Daily commits → new progress every day!
+
+Next → Auth routes (register/login) + JWT
 
 ### Tech Stack
 - MongoDB • Express • React • Node.js
