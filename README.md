@@ -8,10 +8,24 @@ An intelligent ATS that automatically parses resumes, extracts skills, ranks can
 - Backend: Express server running on localhost:5005
 - Dependencies installed: express, cors, dotenv, mongoose
 - MongoDB connection successfully established
-- User model created with validation (name, email, password, role)
+- User model created with strong validation rules (password complexity, email validation, roles)
+- Authentication system implemented:
+  - User registration (secure password hashing using bcryptjs)
+  - User login (JWT-based authentication)
+  - Token generation utility added
+- Authorization middleware added to protect private routes
+- API structure organized with modular routes, controllers, and middleware
 - Daily commits → new progress every day!
 
-Next → Auth routes (register/login) + JWT
+### Next Steps
+
+- Implement candidate and employer onboarding flows
+- Add job posting model and CRUD operations
+- Build resume upload and parsing logic (AI-assisted)
+- Add application tracking endpoints
+- Implement role-based access control (RBAC)
+- Integrate frontend with backend authentication
+- Begin ATS dashboard and analytics API
 
 ### Tech Stack
 - MongoDB • Express • React • Node.js
